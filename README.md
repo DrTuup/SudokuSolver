@@ -4,7 +4,7 @@ By default it uses the [py-sudoku](https://pypi.org/project/py-sudoku/) library.
 
 ## Setting up a custom sudoku
 You can setup your own sudoku to be solved by setting the board variable in the function GenerateSudoku.py to your own in the following template:
-`
+```
 board = [
     [7,8,0,4,0,0,1,2,0],
     [6,0,0,0,7,5,0,0,9],
@@ -14,5 +14,6 @@ board = [
     [9,0,4,0,6,0,0,0,5],
     [0,7,0,3,0,0,0,1,2],
     [1,2,0,0,0,7,4,0,0],
-    [0,4,9,2,0,6,0,0,7]]
-`
+    [0,4,9,2,0,6,0,0,7]
+]
+```
