@@ -1,6 +1,6 @@
 # SudokuSolver
 ## Using this tool
-By default it uses the [py-sudoku](https://pypi.org/project/py-sudoku/) library. It generates a random sudoku based on the difficulty set in line 9 in [Sudoku.py](https://github.com/DrTuup/SudokuSolver/blob/d967daa3eacbfa9b7672660d99ce4454a80f8634/Sudoku.py#L9).
+By default it uses the [py-sudoku](https://pypi.org/project/py-sudoku/) library. It generates a random sudoku based on the difficulty set in line 9 in [Sudoku.py](https://github.com/DrTuup/SudokuSolver/blob/d967daa3eacbfa9b7672660d99ce4454a80f8634/Sudoku.py#L9). Execution is done by hitting F5 while being in the Sudoky.py file. (At least in my VS Code).
 
 ## Setting up a custom sudoku
 You can setup your own sudoku to be solved by setting the board variable in the function GenerateSudoku.py to your own in the following template:
