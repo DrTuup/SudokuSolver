@@ -17,7 +17,22 @@ def GenerateSudoku():
 
 def main():
     # step zero, print the sudoku and start the timer
-    board = GenerateSudoku()
+    print("Welcome to the sudoku solver, do you want to solve a custom sudoku or a random one?")
+    print("1. Random Sudoku")
+    print("2. Custom sudoku")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        board = GenerateSudoku()
+    elif choice == "2":
+        board = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 [0, 0, 0, 0, 0, 0, 0, 0, 0]]
     timer = time.time()
     print("This is the sudoku:")
     PrintSudoku(board)
